@@ -5,7 +5,7 @@ local branch = "main"
 
 local function downloadFile(file)
     local url = string.format(
-        "https://raw.githubusercontent.com/%s/%s/%s/%s",
+        "https://raw.githubusercontent.com/medakoro/CC-Tweaked-TCCS/main/TCCS/startup.lua",
         github_user, repo, branch, file
     )
     local response = http.get(url)
