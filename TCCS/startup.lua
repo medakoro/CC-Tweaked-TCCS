@@ -1,5 +1,5 @@
 -- TCCS/startup.lua
-local github_user = "YourGitHubUsername"
+local github_user = "medakoro"
 local repo = "TCCS"
 local branch = "main"
 
